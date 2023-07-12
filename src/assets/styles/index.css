@@ -1,0 +1,5 @@
+/*@import "normalize.css";*/
+@import "main.css";
+@import "blocks/index.css";
+/* ../../  - подняться на директорию выше*/
+/* ./  - поиск в текущей директории*/

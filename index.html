@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./src/assets/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
     <title>Cozy Corner</title>
 </head>
 <body>
-    <header class="page-header">
+    <header class="header conteiner">
+<!--        <nav class="header__navigation"> -->
         <nav class="navigation">
-            <a class="navigation-logo" href="/Index.html">
-                <img class="page-header-logo" alt="Logo co-working Cozy Corner" src="/Cozy Corner.png" width="225" height="54">
-            </a> 
-            <ul class="navigation-list">
-                <li class="navigation-item"><a class="navigation-link" href="#">Home</a></li>
-                <li class="navigation-item"><a class="navigation-link" href="#">About</a></li>
+<!--            <a class="navigation-logo" href="#">-->
+<!--                <img class="page-header-logo" alt="Logo co-working Cozy Corner" src="/src/Cozy%20Corner.png" width="225" height="54">-->
+<!--            </a> -->
+            <ul class="navigation-list menu">
+                <li class="navigation-item"><a class="link" href="#">Home</a></li>
+                <li class="navigation-item green"><a class="navigation-link" href="#">About</a></li>
                 <li class="navigation-item"><a class="navigation-link" href="#">Featured</a></li>
                 <li class="navigation-item"><a class="navigation-link" href="#">Blog</a></li>
                 <li class="navigation-item"><a class="navigation-link" href="#">More</a></li>
             </ul>
-            <ul class="navigation-user">
+            <ul class="navigation-user menu">
                 <li Class="navigation-item"><a class="navigation-link" href="#"><span class="visually-hidden">Search</span></a></li>
                 <li Class="navigation-item"><a class="navigation-link" href="#"><span class="nav-button-enter">Sign In</span></a></li>
                 <li Class="navigation-item"><a class="navigation-link" href="#"><span class="nav-button-regestretion">Sign Up</span></a></li>
             </ul>
         </nav>
     </header>
-    <main class="main-index">
+    <main class="main-index conteiner">
         <section class="gallery">
-            <h1 Class="visually-hidden">Comfort co-working Cozy Corner</h1>
             <img class="logo" alt="">
             <button class="slider-button slider-prev" type="button"><span class="visually-hidden">Previous picture</span></button>
             <button class="slider-button slider-next" type="button"><span class="visually-hidden">Next picture</span></button>
@@ -40,9 +43,9 @@
                 <li class="gallery-item"><img class="gallery-picture" src="#" alt="picture 4"></li>
             </ol>
 
-            <div class="decorative-title">
+            <div class="decorative">
                 <img class="decorative-picture" src="#" alt="decorative-picture">
-                <p class="decorative-title">Find your comfort working zone with Cozy Corner</p>
+                <h1 class="decorative__title">Find your comfort working zone with Cozy Corner</h1>
                 <p class="decorative-description">Change your work environment by using a co-working place, to meet new people and gain a new network</p>
             </div>
 
