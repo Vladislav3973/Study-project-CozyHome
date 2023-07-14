@@ -1,4 +1,47 @@
-.link {
-    color: red;
-};
+.page-header {
+    color: #313131;
+    background-color: #fff;
+}
 
+.navigation-link {
+    color: #313131;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+}
+
+.navigation__list {
+    gap: 56px;
+
+}
+
+.navigation__user {
+    gap: 45px;
+}
+
+
+.header {
+    display: inline-flex;
+    margin: auto;
+    width: 100%;
+}
+
+
+.header__navigation {
+    display: inline-flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.page__header__logo {
+    background: url("/src/assets/images/logo.png");
+}

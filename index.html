@@ -4,84 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/assets/styles/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
     <title>Cozy Corner</title>
 </head>
 <body>
-    <header class="header conteiner">
+    <header class="header">
 <!--        <nav class="header__navigation"> -->
-        <nav class="navigation">
-<!--            <a class="navigation-logo" href="#">-->
-<!--                <img class="page-header-logo" alt="Logo co-working Cozy Corner" src="/src/Cozy%20Corner.png" width="225" height="54">-->
-<!--            </a> -->
-            <ul class="navigation-list menu">
-                <li class="navigation-item"><a class="link" href="#">Home</a></li>
-                <li class="navigation-item green"><a class="navigation-link" href="#">About</a></li>
-                <li class="navigation-item"><a class="navigation-link" href="#">Featured</a></li>
-                <li class="navigation-item"><a class="navigation-link" href="#">Blog</a></li>
-                <li class="navigation-item"><a class="navigation-link" href="#">More</a></li>
+        <nav class="header__navigation">
+            <a class="navigation__logo menu" href="index.html">
+                <img class="page__header__logo" alt="Logo co-working Cozy Corner" src="#" >
+            </a>
+            <ul class="navigation__list menu">
+                <li class="navigation__item"><a class="navigation__link" href="#">Home</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">About</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Featured</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">Blog</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#">More</a></li>
             </ul>
-            <ul class="navigation-user menu">
-                <li Class="navigation-item"><a class="navigation-link" href="#"><span class="visually-hidden">Search</span></a></li>
-                <li Class="navigation-item"><a class="navigation-link" href="#"><span class="nav-button-enter">Sign In</span></a></li>
-                <li Class="navigation-item"><a class="navigation-link" href="#"><span class="nav-button-regestretion">Sign Up</span></a></li>
+            <ul class="navigation__user menu">
+                <li Class="navigation__item"><a class="navigation__link" href="#"><img src="/src/assets/icons/search.png" alt="search icon"><span class="visually-hidden">Search</span></a></li>
+                <li Class="navigation__item"><a class="navigation__link" href="#"><span class="nav-button-enter">Sign In</span></a></li>
+                <li Class="navigation__item"><a class="navigation__link" href="#"><span class="nav-button-regestretion">Sign Up</span></a></li>
             </ul>
         </nav>
     </header>
-    <main class="main-index conteiner">
+    <main class="main__index">
         <section class="gallery">
-            <img class="logo" alt="">
-            <button class="slider-button slider-prev" type="button"><span class="visually-hidden">Previous picture</span></button>
-            <button class="slider-button slider-next" type="button"><span class="visually-hidden">Next picture</span></button>
+            <img class="gallery__picture" alt="">
+            <button class="gallery__slider__button slider-prev" type="button"><span class="visually-hidden">Previous picture</span></button>
+            <button class="gallery__slider__button slider-next" type="button"><span class="visually-hidden">Next picture</span></button>
 
-            <ol class="gallery-list">
-                <li class="gallery-item"><img class="gallery-picture" src="#" alt="picture 1"></li>
-                <li class="gallery-item"><img class="gallery-picture" src="#" alt="picture 2"></li>
-                <li class="gallery-item"><img class="gallery-picture" src="#" alt="picture 3"></li>
-                <li class="gallery-item"><img class="gallery-picture" src="#" alt="picture 4"></li>
+            <ol class="gallery__list">
+                <li class="gallery__item"><img class="gallery__picture" src="#" alt="picture 1"></li>
+                <li class="gallery__item"><img class="gallery__picture" src="#" alt="picture 2"></li>
+                <li class="gallery__item"><img class="gallery__picture" src="#" alt="picture 3"></li>
+                <li class="gallery__item"><img class="gallery__picture" src="#" alt="picture 4"></li>
             </ol>
 
             <div class="decorative">
-                <img class="decorative-picture" src="#" alt="decorative-picture">
+                <img class="decorative__picture" src="#" alt="decorative-picture">
                 <h1 class="decorative__title">Find your comfort working zone with Cozy Corner</h1>
-                <p class="decorative-description">Change your work environment by using a co-working place, to meet new people and gain a new network</p>
+                <p class="decorative__description">Change your work environment by using a co-working place, to meet new people and gain a new network</p>
             </div>
 
-            <ul class="advanteges-main">
-                <li class="advanteges-item">
-                    <img class="advanteges-icon" src="#" alt="Location icon">
+            <ul class="advanteges__main__list">
+                <li class="advanteges__item">
+                    <img class="advanteges__main__icon" src="#" alt="Location icon">
                     <h3 class="advanteges-title">20+ Location</h3>
                     <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
-                <li class="advanteges-item">
-                    <img class="advanteges-icon" src="#" alt="Rooms icon">
+                <li class="advanteges__item">
+                    <img class="advanteges__main__icon" src="#" alt="Rooms icon">
                     <h3 class="advanteges-title">324 Rooms Available</h3>
                     <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
-                <li class="advanteges-item">
-                    <img class="advanteges-icon" src="#" alt="Wi-fi icon">
+                <li class="advanteges__item">
+                    <img class="advanteges__main__icon" src="#" alt="Wi-fi icon">
                     <h3 class="advanteges-title">100% Internet Connected</h3>
                     <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
             </ul>
 
-            <ul class="advanteges-additional">
-                <li class="additional-item">
-                    <img class="advanteges-icon" src="#" alt="tick icon">
+            <ul class="advanteges__additional__list">
+                <li class="additional__item">
+                    <img class="advanteges__add__icon" src="#" alt="tick icon">
                     <p class="additional-description">Virtual Office Setup</p>
                 </li>
-                <li class="additional-item">
-                    <img class="advanteges-icon" src="#" alt="tick icon">
+                <li class="additional__item">
+                    <img class="advanteges__add__icon" src="#" alt="tick icon">
                     <p class="additional-description">Space for Event</p>
                 </li>
-                <li class="additional-item">
-                    <img class="advanteges-icon" src="#" alt="tick icon">
+                <li class="additional__item">
+                    <img class="advanteges__add__icon" src="#" alt="tick icon">
                     <p class="additional-description">Open Workspace</p>
                 </li>
-                <li class="additional-item">
-                    <img class="advanteges-icon" src="#" alt="tick icon">
+                <li class="additional__item">
+                    <img class="advanteges__add__icon" src="#" alt="tick icon">
                     <p class="additional-description">Chill Out Zone</p>
                 </li>
             </ul>
