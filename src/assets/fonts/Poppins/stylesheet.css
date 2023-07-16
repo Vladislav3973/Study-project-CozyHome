@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: url("./Poppins-Regular.woff2") format("woff2");
+    /*url("") format("woff");*/
+}
+
+/*@font-face {*/
+/*    font-family: "Poppins";*/
+/*    font-weight: 500;*/
+/*    src: url("./Poppins-Medium.woff2") format("woff2");*/
+/*    !*url("") format("woff");*!*/
+/*}*/

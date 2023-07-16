@@ -1,6 +1,6 @@
 
 body {
-    font-family: "Poppins-Regular", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: normal;
     color: #313131;
@@ -12,4 +12,8 @@ a{
 
 .visually-hidden {
     display: none;
+}
+
+.main__index {
+    margin: 0;
 }

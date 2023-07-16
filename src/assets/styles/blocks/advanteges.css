@@ -1,0 +1,11 @@
+.advanteges__main__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.advanteges__additional__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
