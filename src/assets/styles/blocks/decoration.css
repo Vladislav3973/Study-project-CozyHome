@@ -1,0 +1,31 @@
+.decorative {
+    width: 816px;
+    height: 419px;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    left: 944px;
+    right: 160px;
+    top: 215px;
+    bottom: 446px;
+}
+
+.decorative__title {
+    width: 750px;
+    margin-left: 46px;
+    margin-top: 26px;
+    margin-right: 20px;
+    font-size: 56px;
+}
+
+.content__item {
+    
+}
+
+.decorative__description {
+
+}
+
+h1 {
+    margin-bottom: 0;
+}

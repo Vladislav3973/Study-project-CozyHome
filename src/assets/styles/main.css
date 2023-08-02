@@ -4,10 +4,16 @@ body {
     font-size: 18px;
     line-height: normal;
     color: #313131;
+    margin: auto;
 }
 
 a{
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
 }
 
 .visually-hidden {
@@ -16,4 +22,13 @@ a{
 
 .main__index {
     margin: 0;
+}
+
+.button {
+    padding: 8px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
