@@ -9,11 +9,14 @@ body {
 
 a{
     text-decoration: none;
+    color: var(--text-color);
 }
 
 ul {
     list-style: none;
-    display: flex;
+    padding: 0;
+    margin: 0;
+
 }
 
 .visually-hidden {
@@ -24,11 +27,14 @@ ul {
     margin: 0;
 }
 
-.button {
+button {
     padding: 8px;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }

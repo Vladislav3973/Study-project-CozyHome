@@ -2,106 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wi dth=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/assets/styles/index.css">
+
     <title>Cozy Corner</title>
 </head>
 <body>
     <header class="header">
-<!--        <nav class="header__navigation"> -->
 
-        <a class="navigation__logo menu" href="index.html">
-            <span class="logo logo__text logo__item1">Cozy</span>
-            <span class="logo logo__text logo__item2">Corner</span>
+
+        <div class="burger__wrapper mobile">
+            <button class="burger__button" >
+               <div class="burger"><span></span></div>
+            </button>
+            <ul class="burger__list">
+                <li class="burger__item"><a class="burger__link" href="#">Home</a></li>
+                <li class="burger__item"><a class="burger__link" href="#">About</a></li>
+                <li class="burger__item"><a class="burger__link" href="#">Featured</a></li>
+                <li class="burger__item"><a class="burger__link" href="#">Blog</a></li>
+            </ul>
+        </div>
+
+
+        <a class="navigation__logo logo" href="index.html">
+            <span class="logo  logo__item1">Cozy</span>
+            <span class="logo  logo__item2">Corner</span>
         </a>
 
-        <nav class="header__navigation menu">
-            <ul class="navigation__list ">
-                <li class="navigation__item"><a class="navigation__link" href="#">Home</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">About</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">Featured</a></li>
-                <li class="navigation__item"><a class="navigation__link" href="#">Blog</a></li>
+
+        <nav class="header__navigation desktop">
+            <ul class="header__list ">
+                <li class="header__item"><a class="header__link" href="#">Home</a></li>
+                <li class="header__item"><a class="header__link" href="#">About</a></li>
+                <li class="header__item"><a class="header__link" href="#">Featured</a></li>
+                <li class="header__item"><a class="header__link" href="#">Blog</a></li>
 <!--                <li class="navigation__item"><a class="navigation__link " href="#">More</a></li>-->
             </ul>
         </nav>
 
 
-        <div class="header__wrapper menu">
-            <button class="header__search-btn">
+        <div class="header__wrapper ">
+            <button class="header__search_button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <path d="M27.6133 25.72L23.08 21.2C24.5427 19.3366 25.3363 17.0355 25.3333 14.6667C25.3333 12.557 24.7077 10.4947 23.5357 8.74059C22.3636 6.98646 20.6977 5.61929 18.7486 4.81196C16.7996 4.00462 14.6548 3.79339 12.5857 4.20496C10.5166 4.61654 8.61596 5.63244 7.1242 7.1242C5.63244 8.61596 4.61654 10.5166 4.20496 12.5857C3.79339 14.6548 4.00462 16.7995 4.81196 18.7486C5.61929 20.6977 6.98646 22.3636 8.74059 23.5357C10.4947 24.7077 12.557 25.3333 14.6667 25.3333C17.0355 25.3363 19.3366 24.5427 21.2 23.08L25.72 27.6133C25.844 27.7383 25.9914 27.8375 26.1539 27.9052C26.3164 27.9729 26.4907 28.0077 26.6667 28.0077C26.8427 28.0077 27.017 27.9729 27.1794 27.9052C27.3419 27.8375 27.4894 27.7383 27.6133 27.6133C27.7383 27.4894 27.8375 27.3419 27.9052 27.1794C27.9729 27.017 28.0077 26.8427 28.0077 26.6667C28.0077 26.4907 27.9729 26.3164 27.9052 26.1539C27.8375 25.9914 27.7383 25.844 27.6133 25.72ZM6.66667 14.6667C6.66667 13.0844 7.13586 11.5377 8.01491 10.2221C8.89397 8.90652 10.1434 7.88114 11.6052 7.27564C13.067 6.67013 14.6755 6.51171 16.2274 6.82039C17.7792 7.12907 19.2047 7.891 20.3235 9.00982C21.4423 10.1286 22.2043 11.5541 22.513 13.1059C22.8216 14.6578 22.6632 16.2663 22.0577 17.7281C21.4522 19.1899 20.4268 20.4394 19.1112 21.3184C17.7956 22.1975 16.2489 22.6667 14.6667 22.6667C12.5449 22.6667 10.5101 21.8238 9.00982 20.3235C7.50953 18.8232 6.66667 16.7884 6.66667 14.6667Z" fill="#313131"/>
                 </svg>
             </button>
-            <button class="header__secondary-button">Sign In</button>
-            <button class="header__primary-button">Sign Up</button>
+            <button class="header__secondary-button desktop">Sign In</button>
+            <button class="header__primary-button desktop">Sign Up</button>
         </div>
 
     </header>
 
 
-    <main class="main">
-        <section class="gallery">
+<!--    <main class="main">-->
+<!--        <section class="gallery">-->
 
-            <img class="gallery__image" src="./src/assets/images/Placeholder.png" alt="co-working"/>
+<!--            <img class="gallery__image" src="src/assets/images/placeholder.png" alt="co-working"/>-->
 
-            <button class="gallery__prev-button"></button>
-            <button class="gallery__next-button"></button>
+<!--            <button class="gallery__prev-button"></button>-->
+<!--            <button class="gallery__next-button"></button>-->
 
-            <div class="decorative">
-                <h1 class="decorative__title content__item">Find your comfort <br>working zone with <br> Cozy Corner</h1>
-                <p class="decorative__description content__item">Change your work environment by using a co-working place, <br> to meet new people and gain a new network</p>
-            </div>
-
-            <ul class="advanteges__additional__list">
-                <li class="additional__item">
-                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">
-                    <span class="additional-description">Virtual Office Setup</span>
-                </li>
-                <li class="additional__item">
-                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">
-                    <span class="additional-description">Space for Event</span>
-                </li>
-                <li class="additional__item">
-                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">
-                    <span class="additional-description">Open Workspace</span>
-                </li>
-                <li class="additional__item">
-                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">
-                    <span class="additional-description">Chill Out Zone</span>
-                </li>
-            </ul>
-
-
-            <ul class="advanteges__main__list">
-                <li class="advanteges__item">
-                    <img class="advanteges__main__icon" src="./src/assets/icons/Location.png" alt="Location icon">
-                    <h3 class="advanteges-title">20+ Location</h3>
-                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </li>
-                <li class="advanteges__item">
-                    <img class="advanteges__main__icon" src="./src/assets/icons/Room.png" alt="Rooms icon">
-                    <h3 class="advanteges-title">324 Rooms Available</h3>
-                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </li>
-                <li class="advanteges__item">
-                    <img class="advanteges__main__icon" src="./src/assets/icons/wifi.png" alt="Wi-fi icon">
-                    <h3 class="advanteges-title">100% Internet Connected</h3>
-                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </li>
-            </ul>
-
-
-
-<!--            <div class="decorative-circle-left">-->
-<!--                <img class="circle-left" src="#">-->
+<!--            <div class="decorative">-->
+<!--                <h1 class="decorative__title content__item">Find your comfort <br>working zone with <br> Cozy Corner</h1>-->
+<!--                <p class="decorative__description content__item">Change your work environment by using a co-working place, <br> to meet new people and gain a new network</p>-->
 <!--            </div>-->
-<!--            <div class="decorative-circle-bottom">-->
-<!--                <img class="circle-bottom" src="#">-->
-<!--            </div>-->
-<!--            <div class="decorative-circle-right">-->
-<!--                <img class="circle-right" src="#">-->
-<!--            </div>-->
-        </section>
-    </main>
+
+<!--            <ul class="advanteges__additional__list">-->
+<!--                <li class="additional__item">-->
+<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
+<!--                    <span class="additional-description">Virtual Office Setup</span>-->
+<!--                </li>-->
+<!--                <li class="additional__item">-->
+<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
+<!--                    <span class="additional-description">Space for Event</span>-->
+<!--                </li>-->
+<!--                <li class="additional__item">-->
+<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
+<!--                    <span class="additional-description">Open Workspace</span>-->
+<!--                </li>-->
+<!--                <li class="additional__item">-->
+<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
+<!--                    <span class="additional-description">Chill Out Zone</span>-->
+<!--                </li>-->
+<!--            </ul>-->
+
+
+<!--            <ul class="advanteges__main__list">-->
+<!--                <li class="advanteges__item">-->
+<!--                    <img class="advanteges__main__icon" src="src/assets/icons/location.png" alt="Location icon">-->
+<!--                    <h3 class="advanteges-title">20+ Location</h3>-->
+<!--                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                </li>-->
+<!--                <li class="advanteges__item">-->
+<!--                    <img class="advanteges__main__icon" src="src/assets/icons/room.png" alt="Rooms icon">-->
+<!--                    <h3 class="advanteges-title">324 Rooms Available</h3>-->
+<!--                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                </li>-->
+<!--                <li class="advanteges__item">-->
+<!--                    <img class="advanteges__main__icon" src="./src/assets/icons/wifi.png" alt="Wi-fi icon">-->
+<!--                    <h3 class="advanteges-title">100% Internet Connected</h3>-->
+<!--                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
+<!--                </li>-->
+<!--            </ul>-->
+
+
+
+<!--&lt;!&ndash;            <div class="decorative-circle-left">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="circle-left" src="#">&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="decorative-circle-bottom">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="circle-bottom" src="#">&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="decorative-circle-right">&ndash;&gt;-->
+<!--&lt;!&ndash;                <img class="circle-right" src="#">&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--        </section>-->
+<!--    </main>-->
+
+    <script src="src/scripts/index.js"></script>
 </body>
 </html>

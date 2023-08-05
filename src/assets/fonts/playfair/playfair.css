@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Playfair";
+    font-weight: 900;
+    src: url("./playfair_display-black.woff") format("woff"),
+    url("./playfair_display-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Playfair";
+    font-weight: 700;
+    src: url("./playfair_display-bold.woff") format("woff"),
+    url("./playfair_display-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Playfair";
+    font-weight: 500;
+    src: url("./playfair_display-medium.woff") format("woff"),
+    url("./playfair_display-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Playfair";
+    font-weight: 400;
+    src: url("./playfair_display-regular.woff") format("woff"),
+    url("./playfair_display-Regular.woff2") format("woff2");
+}
