@@ -1,0 +1,33 @@
+
+@media (min-width: 0) {
+
+    .advantages__main__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .advantages__main_icon {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 160px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .advantages_title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .advantages_description {
+        display: flex;
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+        padding: 0 5%;
+        justify-content: center;
+    }
+}

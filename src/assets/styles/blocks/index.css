@@ -1,4 +1,13 @@
-@import "hero.css";
+@import "header.css";
 @import "slider.css";
-@import "advanteges.css";
+@import "about.css";
 @import "decoration.css ";
+@import "burger.css";
+@import "mobile_navigation.css";
+@import "logo.css";
+@import "visibility_of_elements.css";
+@import "user_auth_area.css";
+@import "desktop_navigation.css";
+@import "gallery.css";
+@import "section.css";
+@import "advanteges_additional.css";

@@ -1,0 +1,33 @@
+@media (min-width: 0) {
+
+    .mobile_navigation.active {
+        left: 0;
+    }
+
+    .mobile_navigation {
+        display: flex;
+        top: 0;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 50px;
+        position: absolute;
+        height: 100%;
+        width: 60%;
+        background-color: var(--primary-color);
+        left: -100%;
+        z-index: 1;
+        transition: all 0.2s  ease-out;
+    }
+
+    .mobile__navigation_item {
+        padding: 4% 3%;
+        color: var(--white-color);
+    }
+}
+
+@media (min-width: 767px) {
+
+    .mobile_navigation {
+        display: none;
+    }
+}

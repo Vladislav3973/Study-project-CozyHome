@@ -1,0 +1,145 @@
+
+@media (min-width: 0) {
+
+.user__auth_area {
+    display: flex;
+    align-items: center;
+}
+
+    .user__search_button {
+        width: 32px;
+        height: 32px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .user__auth_area {
+        display: flex;
+        width: 25%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .search_icon{
+        width: 22px;
+        height: 22px;
+    }
+    .user__search_button {
+        width: 22px;
+        height: 22px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .user__secondary_button {
+        color: var(--primary-color);
+        text-decoration: underline var(--primary-color);
+        width: 85px;
+        height: 40px;
+        font-size: 14px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__primary_button {
+        display: flex;
+        width: 85px;
+        height: 40px;
+        background-color: var(--primary-color);
+        color: var(--white-color);
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .user__search_button {
+        width: 26px;
+        height: 26px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__secondary_button {
+        font-size: 18px;
+        width: 100px;
+        height: 50px;
+    }
+
+    .user__primary_button {
+        font-size: 18px;
+        width: 100px;
+        height: 50px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    .user__search_button {
+        width: 32px;
+        height: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__secondary_button {
+        font-size: 22px;
+        width: 120px;
+        height: 60px;
+    }
+
+    .user__secondary_button:hover {
+        border: 2px solid var(--primary-color);
+        text-decoration: none;
+
+    }
+
+    .user__primary_button {
+        font-size: 22px;
+        width: 120px;
+        height: 60px;
+    }
+}
+
+
+@media (min-width: 1920px) {
+
+    .user__auth_area {
+        display: flex;
+        width: 22%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .user__search_button {
+        width: 36px;
+        height: 36px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user__secondary_button {
+        font-size: 28px;
+        width: 140px;
+        height: 70px;
+    }
+
+    .user__secondary_button:hover {
+        border: 2px solid var(--primary-color);
+        text-decoration: none;
+    }
+
+    .user__primary_button {
+        font-size: 28px;
+        width: 140px;
+        height: 70px;
+    }
+}

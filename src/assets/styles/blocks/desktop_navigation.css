@@ -1,0 +1,46 @@
+ @media (min-width: 768px) {
+
+    .desktop__navigation {
+        width: 40%;
+        display: flex;
+    }
+    .desktop__navigation_list {
+        display: flex;
+        color: #313131;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .desktop__navigation {
+        width: 34%;
+    }
+    .desktop__navigation_list {
+        font-size: 18px;
+    }
+    .desktop__navigation_item:hover {
+        cursor: pointer;
+        color: var(--primary-color);
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    .desktop__navigation_list {
+        font-size: 22px;
+
+    }
+}
+
+
+@media (min-width: 1920px) {
+
+    .desktop__navigation_list {
+        font-size: 28px;
+
+    }
+}

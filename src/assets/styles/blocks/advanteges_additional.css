@@ -1,0 +1,25 @@
+@media (min-width: 0) {
+
+.advanteges__additional__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+    .additional__item {
+        width: 135px;
+        font-size: 12px;
+        display: flex;
+        align-items:  center;
+        gap: 5px;
+
+    }
+
+    .check_icon {
+        width: 14px;
+        height: 14px;
+    }
+}

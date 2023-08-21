@@ -11,99 +11,133 @@
     <header class="header">
 
 
-        <div class="burger__wrapper mobile">
-            <button class="burger__button" >
-               <div class="burger"><span></span></div>
+
+            <button class="burger__button mobile" >
+                <span class="burger_stick first_stick"></span>
+                <span class="burger_stick second_stick"></span>
+                <span class="burger_stick third_stick"></span>
             </button>
-            <ul class="burger__list">
-                <li class="burger__item"><a class="burger__link" href="#">Home</a></li>
-                <li class="burger__item"><a class="burger__link" href="#">About</a></li>
-                <li class="burger__item"><a class="burger__link" href="#">Featured</a></li>
-                <li class="burger__item"><a class="burger__link" href="#">Blog</a></li>
+
+
+            <ul class="mobile_navigation mobile">
+                <li class="mobile__navigation_item"><a class="mobile__navigation_link" href="#">Home</a></li>
+                <li class="mobile__navigation_item"><a class="mobile__navigation_link" href="#">About</a></li>
+                <li class="mobile__navigation_item"><a class="mobile__navigation_link" href="#">Featured</a></li>
+                <li class="mobile__navigation_item"><a class="mobile__navigation_link" href="#">Blog</a></li>
             </ul>
-        </div>
+
 
 
         <a class="navigation__logo logo" href="index.html">
-            <span class="logo  logo__item1">Cozy</span>
-            <span class="logo  logo__item2">Corner</span>
+            Cozy  <strong class="primary_color">Corner</strong>
         </a>
 
 
-        <nav class="header__navigation desktop">
-            <ul class="header__list ">
-                <li class="header__item"><a class="header__link" href="#">Home</a></li>
-                <li class="header__item"><a class="header__link" href="#">About</a></li>
-                <li class="header__item"><a class="header__link" href="#">Featured</a></li>
-                <li class="header__item"><a class="header__link" href="#">Blog</a></li>
+        <nav class="desktop__navigation desktop">
+            <ul class="desktop__navigation_list ">
+                <li class="desktop__navigation_item"><a class="desktop__navigation_link" href="#">Home</a></li>
+                <li class="desktop__navigation_item"><a class="desktop__navigation_link" href="#">About</a></li>
+                <li class="desktop__navigation_item"><a class="desktop__navigation_link" href="#">Featured</a></li>
+                <li class="desktop__navigation_item"><a class="desktop__navigation_link" href="#">Blog</a></li>
 <!--                <li class="navigation__item"><a class="navigation__link " href="#">More</a></li>-->
             </ul>
         </nav>
 
 
-        <div class="header__wrapper ">
-            <button class="header__search_button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <div class="user__auth_area">
+            <button class="user__search_button">
+                <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                     <path d="M27.6133 25.72L23.08 21.2C24.5427 19.3366 25.3363 17.0355 25.3333 14.6667C25.3333 12.557 24.7077 10.4947 23.5357 8.74059C22.3636 6.98646 20.6977 5.61929 18.7486 4.81196C16.7996 4.00462 14.6548 3.79339 12.5857 4.20496C10.5166 4.61654 8.61596 5.63244 7.1242 7.1242C5.63244 8.61596 4.61654 10.5166 4.20496 12.5857C3.79339 14.6548 4.00462 16.7995 4.81196 18.7486C5.61929 20.6977 6.98646 22.3636 8.74059 23.5357C10.4947 24.7077 12.557 25.3333 14.6667 25.3333C17.0355 25.3363 19.3366 24.5427 21.2 23.08L25.72 27.6133C25.844 27.7383 25.9914 27.8375 26.1539 27.9052C26.3164 27.9729 26.4907 28.0077 26.6667 28.0077C26.8427 28.0077 27.017 27.9729 27.1794 27.9052C27.3419 27.8375 27.4894 27.7383 27.6133 27.6133C27.7383 27.4894 27.8375 27.3419 27.9052 27.1794C27.9729 27.017 28.0077 26.8427 28.0077 26.6667C28.0077 26.4907 27.9729 26.3164 27.9052 26.1539C27.8375 25.9914 27.7383 25.844 27.6133 25.72ZM6.66667 14.6667C6.66667 13.0844 7.13586 11.5377 8.01491 10.2221C8.89397 8.90652 10.1434 7.88114 11.6052 7.27564C13.067 6.67013 14.6755 6.51171 16.2274 6.82039C17.7792 7.12907 19.2047 7.891 20.3235 9.00982C21.4423 10.1286 22.2043 11.5541 22.513 13.1059C22.8216 14.6578 22.6632 16.2663 22.0577 17.7281C21.4522 19.1899 20.4268 20.4394 19.1112 21.3184C17.7956 22.1975 16.2489 22.6667 14.6667 22.6667C12.5449 22.6667 10.5101 21.8238 9.00982 20.3235C7.50953 18.8232 6.66667 16.7884 6.66667 14.6667Z" fill="#313131"/>
                 </svg>
             </button>
-            <button class="header__secondary_button desktop">Sign In</button>
-            <button class="header__primary_button desktop">Sign Up</button>
+            <button class="user__secondary_button desktop">Sign In</button>
+            <button class="user__primary_button desktop">Sign Up</button>
         </div>
 
     </header>
 
 
-<!--    <main class="main">-->
-<!--        <section class="gallery">-->
+    <main class="main">
 
-<!--            <img class="gallery__image" src="src/assets/images/placeholder.png" alt="co-working"/>-->
+        <section class="section">
 
-<!--            <button class="gallery__prev-button"></button>-->
-<!--            <button class="gallery__next-button"></button>-->
+            <img class="gallery__image" src="src/assets/images/placeholder.png" alt="co-working"/>
 
-<!--            <div class="decorative">-->
-<!--                <h1 class="decorative__title content__item">Find your comfort <br>working zone with <br> Cozy Corner</h1>-->
-<!--                <p class="decorative__description content__item">Change your work environment by using a co-working place, <br> to meet new people and gain a new network</p>-->
-<!--            </div>-->
+            <button class="gallery__prev-button"></button>
+            <button class="gallery__next-button"></button>
 
-<!--            <ul class="advanteges__additional__list">-->
-<!--                <li class="additional__item">-->
-<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
-<!--                    <span class="additional-description">Virtual Office Setup</span>-->
-<!--                </li>-->
-<!--                <li class="additional__item">-->
-<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
-<!--                    <span class="additional-description">Space for Event</span>-->
-<!--                </li>-->
-<!--                <li class="additional__item">-->
-<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
-<!--                    <span class="additional-description">Open Workspace</span>-->
-<!--                </li>-->
-<!--                <li class="additional__item">-->
-<!--                    <img class="advanteges__add__icon" src="src/assets/icons/check.png" alt="tick icon">-->
-<!--                    <span class="additional-description">Chill Out Zone</span>-->
-<!--                </li>-->
-<!--            </ul>-->
+            <ul class="advanteges__additional__list">
+                <li class="additional__item">
+                    <svg  class="check_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path d="M11.7443 0.5C9.42148 0.5 7.15085 1.20379 5.21951 2.52236C3.28817 3.84094 1.78288 5.71509 0.893985 7.9078C0.00508862 10.1005 -0.227487 12.5133 0.225668 14.8411C0.678824 17.1689 1.79736 19.3071 3.43982 20.9853C5.08229 22.6635 7.17492 23.8064 9.45309 24.2694C11.7313 24.7324 14.0926 24.4948 16.2386 23.5866C18.3846 22.6783 20.2188 21.1402 21.5093 19.1668C22.7998 17.1935 23.4886 14.8734 23.4886 12.5C23.4886 9.3174 22.2512 6.26515 20.0487 4.01472C17.8463 1.76428 14.8591 0.5 11.7443 0.5ZM18.4189 9.605L11.0494 18.145C10.9305 18.2819 10.7863 18.3935 10.625 18.4733C10.4638 18.5531 10.2887 18.5995 10.1099 18.61H10.0218C9.68798 18.6121 9.36533 18.4874 9.1165 18.26L5.17238 14.685C4.90113 14.439 4.73664 14.093 4.71507 13.7231C4.6935 13.3532 4.81664 12.9897 5.05738 12.7125C5.29813 12.4353 5.63677 12.2673 5.9988 12.2452C6.36083 12.2232 6.7166 12.349 6.98785 12.595L9.92392 15.24L16.3882 7.74C16.6283 7.46219 16.9665 7.2932 17.3286 7.27023C17.6906 7.24726 18.0467 7.37217 18.3186 7.6175C18.5905 7.86282 18.7559 8.20846 18.7784 8.57838C18.8009 8.9483 18.6786 9.31219 18.4385 9.59L18.4189 9.605Z" fill="#9B9A78"/>
+                    </svg>
+                    <span class="additional-description">Virtual Office Setup</span>
+                </li>
+                <li class="additional__item">
+                    <svg class="check_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path d="M11.7443 0.5C9.42148 0.5 7.15085 1.20379 5.21951 2.52236C3.28817 3.84094 1.78288 5.71509 0.893985 7.9078C0.00508862 10.1005 -0.227487 12.5133 0.225668 14.8411C0.678824 17.1689 1.79736 19.3071 3.43982 20.9853C5.08229 22.6635 7.17492 23.8064 9.45309 24.2694C11.7313 24.7324 14.0926 24.4948 16.2386 23.5866C18.3846 22.6783 20.2188 21.1402 21.5093 19.1668C22.7998 17.1935 23.4886 14.8734 23.4886 12.5C23.4886 9.3174 22.2512 6.26515 20.0487 4.01472C17.8463 1.76428 14.8591 0.5 11.7443 0.5ZM18.4189 9.605L11.0494 18.145C10.9305 18.2819 10.7863 18.3935 10.625 18.4733C10.4638 18.5531 10.2887 18.5995 10.1099 18.61H10.0218C9.68798 18.6121 9.36533 18.4874 9.1165 18.26L5.17238 14.685C4.90113 14.439 4.73664 14.093 4.71507 13.7231C4.6935 13.3532 4.81664 12.9897 5.05738 12.7125C5.29813 12.4353 5.63677 12.2673 5.9988 12.2452C6.36083 12.2232 6.7166 12.349 6.98785 12.595L9.92392 15.24L16.3882 7.74C16.6283 7.46219 16.9665 7.2932 17.3286 7.27023C17.6906 7.24726 18.0467 7.37217 18.3186 7.6175C18.5905 7.86282 18.7559 8.20846 18.7784 8.57838C18.8009 8.9483 18.6786 9.31219 18.4385 9.59L18.4189 9.605Z" fill="#9B9A78"/>
+                    </svg>
+                    <span class="additional-description">Space for Event</span>
+                </li>
+                <li class="additional__item">
+                    <svg class="check_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path d="M11.7443 0.5C9.42148 0.5 7.15085 1.20379 5.21951 2.52236C3.28817 3.84094 1.78288 5.71509 0.893985 7.9078C0.00508862 10.1005 -0.227487 12.5133 0.225668 14.8411C0.678824 17.1689 1.79736 19.3071 3.43982 20.9853C5.08229 22.6635 7.17492 23.8064 9.45309 24.2694C11.7313 24.7324 14.0926 24.4948 16.2386 23.5866C18.3846 22.6783 20.2188 21.1402 21.5093 19.1668C22.7998 17.1935 23.4886 14.8734 23.4886 12.5C23.4886 9.3174 22.2512 6.26515 20.0487 4.01472C17.8463 1.76428 14.8591 0.5 11.7443 0.5ZM18.4189 9.605L11.0494 18.145C10.9305 18.2819 10.7863 18.3935 10.625 18.4733C10.4638 18.5531 10.2887 18.5995 10.1099 18.61H10.0218C9.68798 18.6121 9.36533 18.4874 9.1165 18.26L5.17238 14.685C4.90113 14.439 4.73664 14.093 4.71507 13.7231C4.6935 13.3532 4.81664 12.9897 5.05738 12.7125C5.29813 12.4353 5.63677 12.2673 5.9988 12.2452C6.36083 12.2232 6.7166 12.349 6.98785 12.595L9.92392 15.24L16.3882 7.74C16.6283 7.46219 16.9665 7.2932 17.3286 7.27023C17.6906 7.24726 18.0467 7.37217 18.3186 7.6175C18.5905 7.86282 18.7559 8.20846 18.7784 8.57838C18.8009 8.9483 18.6786 9.31219 18.4385 9.59L18.4189 9.605Z" fill="#9B9A78"/>
+                    </svg>
+                    <span class="additional-description">Open Workspace</span>
+                </li>
+                <li class="additional__item">
+                    <svg class="check_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path d="M11.7443 0.5C9.42148 0.5 7.15085 1.20379 5.21951 2.52236C3.28817 3.84094 1.78288 5.71509 0.893985 7.9078C0.00508862 10.1005 -0.227487 12.5133 0.225668 14.8411C0.678824 17.1689 1.79736 19.3071 3.43982 20.9853C5.08229 22.6635 7.17492 23.8064 9.45309 24.2694C11.7313 24.7324 14.0926 24.4948 16.2386 23.5866C18.3846 22.6783 20.2188 21.1402 21.5093 19.1668C22.7998 17.1935 23.4886 14.8734 23.4886 12.5C23.4886 9.3174 22.2512 6.26515 20.0487 4.01472C17.8463 1.76428 14.8591 0.5 11.7443 0.5ZM18.4189 9.605L11.0494 18.145C10.9305 18.2819 10.7863 18.3935 10.625 18.4733C10.4638 18.5531 10.2887 18.5995 10.1099 18.61H10.0218C9.68798 18.6121 9.36533 18.4874 9.1165 18.26L5.17238 14.685C4.90113 14.439 4.73664 14.093 4.71507 13.7231C4.6935 13.3532 4.81664 12.9897 5.05738 12.7125C5.29813 12.4353 5.63677 12.2673 5.9988 12.2452C6.36083 12.2232 6.7166 12.349 6.98785 12.595L9.92392 15.24L16.3882 7.74C16.6283 7.46219 16.9665 7.2932 17.3286 7.27023C17.6906 7.24726 18.0467 7.37217 18.3186 7.6175C18.5905 7.86282 18.7559 8.20846 18.7784 8.57838C18.8009 8.9483 18.6786 9.31219 18.4385 9.59L18.4189 9.605Z" fill="#9B9A78"/>
+                    </svg>
+                    <span class="additional-description">Chill Out Zone</span>
+                </li>
+            </ul>
+
+            <div class="decorative">
+                <h1 class="decorative__title content__item">Find your comfort <br>working zone with <br> Cozy Corner</h1>
+                <p class="decorative__description content__item">Change your work environment by using a co-working place, <br> to meet new people and gain a new network</p>
+            </div>
 
 
-<!--            <ul class="advanteges__main__list">-->
-<!--                <li class="advanteges__item">-->
-<!--                    <img class="advanteges__main__icon" src="src/assets/icons/location.png" alt="Location icon">-->
-<!--                    <h3 class="advanteges-title">20+ Location</h3>-->
-<!--                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
-<!--                </li>-->
-<!--                <li class="advanteges__item">-->
-<!--                    <img class="advanteges__main__icon" src="src/assets/icons/room.png" alt="Rooms icon">-->
-<!--                    <h3 class="advanteges-title">324 Rooms Available</h3>-->
-<!--                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
-<!--                </li>-->
-<!--                <li class="advanteges__item">-->
-<!--                    <img class="advanteges__main__icon" src="./src/assets/icons/wifi.png" alt="Wi-fi icon">-->
-<!--                    <h3 class="advanteges-title">100% Internet Connected</h3>-->
-<!--                    <p class="advanteges-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>-->
-<!--                </li>-->
-<!--            </ul>-->
+            <ul class="advantages__main__list">
+                <li class="advantages__item">
+                    <svg class="advantages__main_icon" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <g clip-path="url(#clip0_83_139)">
+                            <path d="M63.4834 27.65C63.4834 44.5333 40.0001 65.7 40.0001 65.7C40.0001 65.7 16.5167 44.5333 16.5167 27.65C16.5167 14.6833 27.0334 4.16666 40.0001 4.16666C52.9667 4.16666 63.4834 14.6833 63.4834 27.65Z" fill="#9B9A78"/>
+                            <path d="M40.0001 37.3833C45.3756 37.3833 49.7334 33.0256 49.7334 27.65C49.7334 22.2744 45.3756 17.9167 40.0001 17.9167C34.6245 17.9167 30.2667 22.2744 30.2667 27.65C30.2667 33.0256 34.6245 37.3833 40.0001 37.3833Z" fill="white"/>
+                            <path d="M40 69.0333C39.2 69.0333 38.4 68.75 37.7667 68.1833C36.7667 67.2833 13.1833 45.8167 13.1833 27.65C13.2 12.8667 25.2167 0.833336 40 0.833336C54.7833 0.833336 66.8167 12.8667 66.8167 27.65C66.8167 45.8167 43.25 67.2833 42.2333 68.1833C41.6 68.75 40.8 69.0333 40 69.0333ZM40 7.5C28.9 7.5 19.8667 16.5333 19.8667 27.65C19.8667 38.9667 32.8167 54.05 40 61.1C45.65 55.5 60.15 39.95 60.15 27.65C60.15 16.5333 51.1 7.5 40 7.5Z" fill="#313131"/>
+                            <path d="M40 40.7167C32.8 40.7167 26.9333 34.85 26.9333 27.65C26.9333 20.45 32.8 14.5667 40 14.5667C47.2 14.5667 53.0667 20.4333 53.0667 27.6333C53.0667 34.8333 47.2 40.7167 40 40.7167ZM40 21.2333C36.4667 21.2333 33.6 24.1 33.6 27.6333C33.6 31.1667 36.4667 34.0333 40 34.0333C43.5333 34.0333 46.4 31.1667 46.4 27.6333C46.4 24.1 43.5333 21.2333 40 21.2333ZM75.8333 79.1667H4.16667C2.93334 79.1667 1.80001 78.4833 1.23334 77.4C0.650006 76.3167 0.716673 75 1.40001 73.9667L17.7333 49.6333C18.35 48.7167 19.3833 48.15 20.5 48.15H27.1V54.8167H22.2833L10.4167 72.5H69.5833L57.7167 54.8333H52.9V48.1667H59.5C60.6167 48.1667 61.65 48.7167 62.2667 49.65L78.6 73.9833C79.2833 75 79.35 76.3167 78.7667 77.4167C78.2 78.4833 77.0667 79.1667 75.8333 79.1667Z" fill="#313131"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_83_139">
+                                <rect width="80" height="80" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <h3 class="advantages_title">20+ Location</h3>
+                    <p class="advantages_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li class="advantages__item">
+                    <svg class="advantages__main_icon" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <path d="M40 43.3333C38 43.3333 36.6666 42 36.6666 40C36.6666 38 38 36.6667 40 36.6667C42 36.6667 43.3333 38 43.3333 40C43.3333 42 42 43.3333 40 43.3333Z" fill="#9B9A78"/>
+                        <path d="M60 16.6667V56.6667C60 58.3333 58.3333 60 56.6667 60H50V24.6667C50 21.6667 48 19.3333 45.3333 18.3333L20 10H53.3333C57 10 60 13 60 16.6667Z" fill="#9B9A78"/>
+                        <path d="M53.3333 6.66666H20H19.6666H19.3333C19 6.66666 18.6666 6.99999 18.3333 6.99999C18.3333 6.99999 18.3333 6.99999 18 6.99999C18 6.99999 18 6.99999 17.6666 7.33332C17.6666 7.66666 17.3333 7.99999 17.3333 8.33332C17 8.66666 16.6666 8.99999 16.6666 9.33332C16.6666 9.66666 16.6666 9.99999 16.6666 9.99999V57.6667C16.6666 60.6667 18.3333 63 21.3333 64L44.6666 71.6667C45.3333 72 46 72 46.6666 72C48 72 49.3333 71.6667 50.6666 70.6667C52.3333 69.3333 53.3333 67.3333 53.3333 65.3333V63.3333H56.6666C60.3333 63.3333 63.3333 60.3333 63.3333 56.6667V16.6667C63.3333 11 59 6.66666 53.3333 6.66666ZM46.6666 65.3333L23.3333 57.6667V14.6667L44.3333 21.6667C45.6666 22 46.6666 23.3333 46.6666 24.6667V60V65.3333ZM56.6666 56.6667H53.3333V24.6667C53.3333 20.3333 50.6666 16.6667 46.3333 15.3333L40.6666 13.3333H53.3333C55.3333 13.3333 56.6666 14.6667 56.6666 16.6667V56.6667Z" fill="#313131"/>
+                    </svg>
+                    <h3 class="advantages_title">324 Rooms Available</h3>
+                    <p class="advantages_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li class="advantages__item">
+                    <svg class="advantages__main_icon" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+                        <path d="M6.15383 30.1538C5.3846 30.1538 4.61537 29.8462 3.99998 29.2308C2.76921 28 2.76921 26.1538 3.99998 24.9231C13.5384 15.2308 26.4615 10 40 10C53.5384 10 66.4615 15.2308 76 24.9231C77.2308 26.1538 77.2308 28 76 29.2308C74.7692 30.4615 72.9231 30.4615 71.6923 29.2308C63.2308 20.7692 52 16.1538 40 16.1538C28 16.1538 16.7692 20.7692 8.30767 29.2308C7.69229 29.8462 6.92306 30.1538 6.15383 30.1538Z" fill="#313131"/>
+                        <path d="M14.7692 38.7693C14 38.7693 13.2307 38.4616 12.6153 37.8462C11.3846 36.6154 11.3846 34.7693 12.6153 33.5385C19.8461 26.3077 29.6923 22.1539 40 22.1539C50.3076 22.1539 60 26.1539 67.3846 33.5385C68.6153 34.7693 68.6153 36.6154 67.3846 37.8462C66.1538 39.0769 64.3076 39.0769 63.0769 37.8462C56.923 31.6923 48.7692 28.3077 40.1538 28.3077C31.5384 28.3077 23.3846 31.6923 17.2307 37.8462C16.4615 38.4616 15.6923 38.7693 14.7692 38.7693Z" fill="#313131"/>
+                        <path d="M23.5385 47.5384C22.7692 47.5384 22 47.2307 21.3846 46.6154C20.1539 45.3846 20.1539 43.5384 21.3846 42.3077C26.3077 37.3846 32.9231 34.6154 40 34.6154C47.0769 34.6154 53.6923 37.3846 58.6154 42.3077C59.8462 43.5384 59.8462 45.3846 58.6154 46.6154C57.3846 47.8461 55.5385 47.8461 54.3077 46.6154C50.4615 42.7692 45.3846 40.7692 40 40.7692C34.6154 40.7692 29.5385 42.923 25.6923 46.7692C25.0769 47.2307 24.3077 47.5384 23.5385 47.5384Z" fill="#313131"/>
+                        <path d="M40 66.9231C44.5882 66.9231 48.3076 63.2036 48.3076 58.6154C48.3076 54.0272 44.5882 50.3077 40 50.3077C35.4117 50.3077 31.6923 54.0272 31.6923 58.6154C31.6923 63.2036 35.4117 66.9231 40 66.9231Z" fill="#9B9A78"/>
+                        <path d="M40 70C37.0769 70 34.1538 68.923 32 66.6154C27.5384 62.1538 27.5384 54.923 32 50.4615C36.4615 46 43.6923 46 48.1538 50.4615C50.3077 52.6154 51.5384 55.5384 51.5384 58.4615C51.5384 61.3846 50.3077 64.3077 48.1538 66.4615C45.8461 68.9231 42.923 70 40 70ZM40 53.3846C38.6153 53.3846 37.2307 53.8461 36.3077 54.9231C34.3077 56.9231 34.3077 60.3077 36.3077 62.3077C38.3077 64.3077 41.6923 64.3077 43.6923 62.3077C44.6153 61.3846 45.2307 60 45.2307 58.6154C45.2307 57.2307 44.6153 55.8461 43.6923 54.9231C42.7692 53.8461 41.3846 53.3846 40 53.3846Z" fill="#313131"/>
+                    </svg>
+                    <h3 class="advantages_title">100% Internet Connected</h3>
+                    <p class="advantages_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+            </ul>
 
 
 
@@ -116,8 +150,9 @@
 <!--&lt;!&ndash;            <div class="decorative-circle-right">&ndash;&gt;-->
 <!--&lt;!&ndash;                <img class="circle-right" src="#">&ndash;&gt;-->
 <!--&lt;!&ndash;            </div>&ndash;&gt;-->
-<!--        </section>-->
-<!--    </main>-->
+        </section>
+
+    </main>
 
     <script src="src/scripts/index.js"></script>
 </body>
