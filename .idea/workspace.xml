@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bdb57f-c063-407e-83c9-a9f4cdb8e076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/advanteges_additional.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/burger.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/desktop_navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/mobile_navigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/user_auth_area.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/visibility_of_elements.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/counter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/burger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/advanteges.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/advanteges_additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/advanteges_additional.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/burger.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/decoration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/decoration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/hero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/desktop_navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/desktop_navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/mobile_navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/mobile_navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/user_auth_area.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/user_auth_area.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/variables.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +96,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vvpichuev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="662dc43f-8633-476e-a6df-b3b8a733839f" />
+        <option name="url" value="https://github.com/vvpichuev/Study-project-CozyCorner.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -195,20 +210,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Home/Documents/GitHub/Study-project-CozyHome",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Home/Documents/GitHub/Study-project-CozyHome&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Home\Documents\GitHub\Study-project-CozyHome\src\scripts" />
@@ -234,7 +250,18 @@
       <workItem from="1690204343294" duration="34874000" />
       <workItem from="1691150224643" duration="33746000" />
       <workItem from="1692176281438" duration="1247000" />
-      <workItem from="1692179725363" duration="24243000" />
+      <workItem from="1692179725363" duration="24253000" />
+      <workItem from="1692700898102" duration="24763000" />
+      <workItem from="1693043600063" duration="2180000" />
+      <workItem from="1693382975703" duration="7555000" />
+      <workItem from="1694093659935" duration="23796000" />
+      <workItem from="1695711679196" duration="5203000" />
+      <workItem from="1695824020612" duration="59000" />
+      <workItem from="1695824095851" duration="23002000" />
+      <workItem from="1696600354323" duration="9032000" />
+      <workItem from="1697039130423" duration="11716000" />
+      <workItem from="1697143207147" duration="842000" />
+      <workItem from="1697492687181" duration="2646000" />
     </task>
     <servers />
   </component>

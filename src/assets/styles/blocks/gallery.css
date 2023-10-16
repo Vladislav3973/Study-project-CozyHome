@@ -1,8 +1,21 @@
 
-@media (min-width: 0) {
+
     .gallery__image {
-    width: 90%;
-        padding: 0 5%;
-    height: auto;
+        width: 100%;
+        max-width: 960px;
+        height: auto;
+        padding-bottom: 0;
+        /*
+        z-index: -2;
+        */
+        border-radius: 5px;
+        position: relative;
     }
-}
+
+
+    @media (min-width: 1280px) {
+        .gallery__image {
+
+            /*z-index: 100;*/
+        }
+    }

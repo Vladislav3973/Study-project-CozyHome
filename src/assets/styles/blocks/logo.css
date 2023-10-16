@@ -3,16 +3,12 @@
 }
 
 .logo {
-
+    display: flex;
     align-items: center;
+    color: var(--second-primary-color);
+    font-size: 24px;
 }
 
-@media (min-width: 0) {
-
-    .logo {
-        font-size: 30px;
-    }
-}
 
 @media (min-width: 480px) {
 
@@ -21,12 +17,13 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 
     .logo{
         order: -1;
         width: 25%;
         font-size: 26px;
+
     }
 }
 
@@ -35,6 +32,7 @@
     .logo {
         font-size: 36px;
         font-weight: bold;
+        justify-content: flex-start;
     }
 }
 
@@ -44,6 +42,7 @@
     .logo {
         font-size: 44px;
         font-weight: bold;
+        justify-content: flex-start;
     }
 
 }

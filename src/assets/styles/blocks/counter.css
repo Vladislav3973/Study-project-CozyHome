@@ -1,0 +1,22 @@
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    max-width: 220px;
+    /*z-index: -1;*/
+}
+
+.counter_progress {
+    height: 8px;
+    width: 100%;
+    background-color: #EFEDEA;
+}
+
+.counter__progress-current {
+    display: block;
+    height: 8px;
+    width: 0;
+    background-color: var(--primary-color);
+    transition: width .2s ease-out;
+}
