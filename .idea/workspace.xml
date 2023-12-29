@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bdb57f-c063-407e-83c9-a9f4cdb8e076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/blocks/counter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/burger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/advanteges_additional.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/advanteges_additional.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/burger.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/decoration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/decoration.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/desktop_navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/desktop_navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/mobile_navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/mobile_navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/blocks/user_auth_area.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/blocks/user_auth_area.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/variables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/counter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,8 +242,25 @@
       <workItem from="1696600354323" duration="9032000" />
       <workItem from="1697039130423" duration="11716000" />
       <workItem from="1697143207147" duration="842000" />
-      <workItem from="1697492687181" duration="2646000" />
+      <workItem from="1697492687181" duration="20156000" />
+      <workItem from="1697958264467" duration="3392000" />
+      <workItem from="1699077846090" duration="149000" />
+      <workItem from="1699967958047" duration="630000" />
+      <workItem from="1700115280089" duration="102000" />
+      <workItem from="1700122883379" duration="4000" />
+      <workItem from="1701986740146" duration="177000" />
+      <workItem from="1701986938286" duration="43000" />
+      <workItem from="1702304990239" duration="1368000" />
     </task>
+    <task id="LOCAL-00001" summary="debugging slider indicator">
+      <option name="closed" value="true" />
+      <created>1697495403344</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697495403344</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -312,6 +310,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debugging slider indicator" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging slider indicator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/assets/styles/style.css" />

@@ -43,3 +43,23 @@
         gap: 5px;
     }
 }
+
+@media (min-width: 1440px) {
+
+    .advantages_wrapper {
+        width: 450px;
+        position: absolute;
+        top: 40%;
+        left: 65%;
+    }
+}
+
+@media (min-width: 1600px) {
+
+    .advantages_wrapper {
+        width: 450px;
+        position: absolute;
+        top: 55%;
+        left: 65%;
+    }
+}

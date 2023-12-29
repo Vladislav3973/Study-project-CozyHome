@@ -21,7 +21,7 @@
 
     .prev_button {
         background-color: var(--gray);
-        cursor: not-allowed;
+        cursor: pointer;
     }
 
     .next_button {
@@ -41,6 +41,7 @@
     @media (min-width: 1024px) {
         .slider_wrapper {
             left: 60px;
+            max-width: 900px;
         }
     }
 

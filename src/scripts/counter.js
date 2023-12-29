@@ -1,15 +1,13 @@
 const PREV_SLIDER_BUTTON = document.querySelector(".slider.prev_button");
 const NEXT_SLIDER_BUTTON = document.querySelector(".slider.next_button");
-const COUNTER_CURRENT = document.querySelector(".counter_current");
-const COUNTER_ALL = document.querySelector(".counter_all");
-const IMG_CONTAINER = document.querySelector(".gallery__image");
-const COUNTER_PROGRESS = document.querySelector(".counter__progress-current");
+const COUNTER_DYNAMIC = document.querySelector(".counter_current");
+const COUNTER_STATIC = document.querySelector(".counter_all");
+const CURRENT_IMG = document.querySelector(".gallery__image");
+const PROGRESS_LINE = document.querySelector(".counter__progress-current");
 
-
-
-const sliderOptions = {
-  currentIndex: 1,
-    slides: [
+let currentImageIndex = 0;
+ 
+const sliderOptions = [
         {
             id: 1,
             src: "https://fs.prposting.net/uploads/2022/7/19/TlQiQ2R65nsOzvDZWKdbAPXfDvZPvzpoEB2DG6yN.jpg"
@@ -22,61 +20,82 @@ const sliderOptions = {
             id: 3,
             src: "https://kredit-on.ru/wp-content/uploads/e/c/6/ec68a62c4ae3a88af3be9f87335c6ba1.jpeg"
         }
-    ]
-};
+    ];
 
 
 
-
-function changeWidthCounterLine (index) {
-    const slideWidthInPercents = 100 /  sliderOptions.slides.length;
-    console.log(slideWidthInPercents);
-    const currentPercents = (index + 1) * slideWidthInPercents;
-    COUNTER_PROGRESS.style.width =  `${currentPercents}%`;
-    console.log( 'tut',currentPercents);
-}
-
-function setSlideDefaultValues () {
-    /* sliderOptions.slides[0] = sliderOptions.currentIndex;*/
-    showNewImage(0);
-    changeCurrentCounter(slides[0].id);
-    changeAllCounter(sliderOptions.slides.length);
-    changeWidthCounterLine(0);
+// устанавливает значения текущего и общего количества слайдов при загрузке страницы
+const setDefaultValuesToCounters = (index) => {
+    setDynamicCounter(index + 1);
+    COUNTER_STATIC.textContent = sliderOptions.length;
+    
 }
 
 
-function getNewImageIndex (index, move) {
-
-    if (move === "next") {
-        return sliderOptions.slides.length - 1 === index ?  1 :  index + 1;
-    }  else  {
-        return !index ? sliderOptions.slides.length - 1 : index - 1;
-    }
-}
-function changeAllCounter (index) {
-    COUNTER_ALL.textContent = index ;
+// эта функция отвечает за установку текущей ширины индикатора в зависимости от слайда
+const setProgressLineWidth = (index) => {
+    PROGRESS_LINE.style.width = `${(100 /  sliderOptions.length)*(index + 1)}%`;
+    
 }
 
-function changeCurrentCounter (index) {
-    console.log(index);
-    COUNTER_CURRENT.textContent = index;
+
+
+
+// устанавливает новый путь картинки
+function setNewImage (index) {
+    const newSlide = sliderOptions[index];
+    const newImgLink = newSlide.src;
+    CURRENT_IMG.src = newImgLink;
+    
 }
 
-function showNewImage (index) {
-    const newSlide = sliderOptions.slides[index];
-    IMG_CONTAINER.src = newSlide.src;
+
+
+// функция для получения нового индекса слайда
+// функция служит для управления инверсией слайдера
+function getNewIndexImage (direction) {
+
+    if (direction === "next") {
+        const isLastSlide = currentImageIndex === sliderOptions.length - 1;
+        if (isLastSlide) {
+          return 0
+        } else {
+          return currentImageIndex +  1;
+        }
+      } else {
+       if (currentImageIndex === 0) {
+         return  sliderOptions.length - 1
+       } else {
+         return currentImageIndex - 1;
+       }
+      }
 }
 
-const {slides} = sliderOptions;
-console.log(slides[0].id);
-
-function slide (mod) {
-    sliderOptions.currentIndex = getNewImageIndex(sliderOptions.currentIndex, mod);
-    showNewImage(sliderOptions.currentIndex);
-    changeCurrentCounter(sliderOptions.currentIndex);
-    changeWidthCounterLine(slides[0].id);
+// установка динамического каунтера
+function setDynamicCounter(newCount) {
+    COUNTER_DYNAMIC.textContent = newCount;
 }
 
-document.addEventListener("DOMContentLoaded", () => setSlideDefaultValues());
+
+// Вторая главная функция отвечает за установку первоначальных значений при загрузке страницы
+function setDefaultValues () {
+    
+    setNewImage(currentImageIndex);
+    setDefaultValuesToCounters(currentImageIndex);
+    // setDefaultProgressLine();
+    setProgressLineWidth(currentImageIndex);
+}
+
+// Главная функция отвечает за вызов всех остальных функций
+function slide (direction) {
+    // получили новый индекс картинки для получения нового индекса картинки
+    const newIndexImage = getNewIndexImage(direction); 
+    currentImageIndex = newIndexImage;
+    setNewImage(currentImageIndex);
+    setProgressLineWidth(currentImageIndex);
+    setDynamicCounter(currentImageIndex + 1);
+}
+
+document.addEventListener("DOMContentLoaded", () => setDefaultValues());
 PREV_SLIDER_BUTTON.addEventListener("click", () => slide("prev"));
 NEXT_SLIDER_BUTTON.addEventListener("click", () => slide("next"));
