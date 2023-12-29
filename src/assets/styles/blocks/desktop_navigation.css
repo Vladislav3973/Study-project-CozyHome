@@ -1,15 +1,15 @@
-.desktop__navigation_link{
+.desktop__navigation-link{
     color: var(--second-primary-color) ;
 }
 
-.desktop__navigation_link {
+.desktop__navigation-link {
     text-decoration:none;
     display: inline-block;
     line-height: 1;
     transition: color .2s ease-out;
 }
 
-.desktop__navigation_link::after {
+.desktop__navigation-link::after {
     display: block;
     content: "";
     height: 2px;
@@ -17,8 +17,8 @@
     background-color: var(--primary-color);
     transition: width 0.4s ease-in-out;
 }
-.desktop__navigation_link:hover::after,
-.desktop__navigation_link:focus::after {
+.desktop__navigation-link:hover::after,
+.desktop__navigation-link:focus::after {
     width: 100%;
 }
 
@@ -28,7 +28,7 @@
         width: 40%;
         display: flex;
     }
-    .desktop__navigation_list {
+    .desktop__navigation-list {
         display: flex;
         color: #313131;
         width: 100%;
@@ -43,7 +43,7 @@
     .desktop__navigation {
         width: 34%;
     }
-    .desktop__navigation_list {
+    .desktop__navigation-list {
         font-size: 18px;
         gap: 40px;
     }
@@ -53,7 +53,7 @@
 
 @media (min-width: 1440px) {
 
-    .desktop__navigation_list {
+    .desktop__navigation-list {
         font-size: 22px;
         gap: 60px;
     }
@@ -62,7 +62,7 @@
 
 @media (min-width: 1920px) {
 
-    .desktop__navigation_list {
+    .desktop__navigation-list {
         font-size: 28px;
 
     }

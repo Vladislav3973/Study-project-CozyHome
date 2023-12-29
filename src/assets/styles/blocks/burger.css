@@ -1,4 +1,4 @@
-.burger_wrapper {
+.burger__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@
         color: var(--white-color);
     }
 
-    .burger_stick {
+    .burger__stick {
         background-color: var(--second-primary-color);
         width: 32px;
         height: 2px;
